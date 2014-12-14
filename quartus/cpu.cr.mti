@@ -1,0 +1,162 @@
+C:/Users/kemal/quartus/jumpbranchunit.v {1 {vlog -work work -nocovercells C:/Users/kemal/quartus/jumpbranchunit.v
+Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+-- Compiling module jumpbranchunit
+
+Top level modules:
+	jumpbranchunit
+
+} {} {}} C:/Users/kemal/quartus/mult2_to_1_5.v {1 {vlog -work work -nocovercells C:/Users/kemal/quartus/mult2_to_1_5.v
+Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+-- Compiling module mult2_to_1_5
+
+Top level modules:
+	mult2_to_1_5
+
+} {} {}} C:/Users/kemal/quartus/mult2_to_1_32.v {1 {vlog -work work -nocovercells C:/Users/kemal/quartus/mult2_to_1_32.v
+Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+-- Compiling module mult2_to_1_32
+
+Top level modules:
+	mult2_to_1_32
+
+} {} {}} C:/Users/kemal/Desktop/project/alu32.v {1 {vlog -work work -nocovercells C:/Users/kemal/Desktop/project/alu32.v
+Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+-- Compiling module alu32
+
+Top level modules:
+	alu32
+
+} {} {}} C:/Users/kemal/quartus/mult4_to_1_32.v {1 {vlog -work work -nocovercells C:/Users/kemal/quartus/mult4_to_1_32.v
+Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+-- Compiling module mult4_to_1_32
+
+Top level modules:
+	mult4_to_1_32
+
+} {} {}} C:/Users/kemal/Desktop/project/control.v {1 {vlog -work work -nocovercells C:/Users/kemal/Desktop/project/control.v
+Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+-- Compiling module control
+
+Top level modules:
+	control
+
+} {} {}} C:/Users/kemal/Desktop/project/mult2_to_1_32.v {1 {vlog -work work -nocovercells C:/Users/kemal/Desktop/project/mult2_to_1_32.v
+Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+-- Compiling module mult2_to_1_32
+
+Top level modules:
+	mult2_to_1_32
+
+} {} {}} C:/Users/kemal/Desktop/project/mult4_to_1_32.v {1 {vlog -work work -nocovercells C:/Users/kemal/Desktop/project/mult4_to_1_32.v
+Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+-- Compiling module mult4_to_1_32
+
+Top level modules:
+	mult4_to_1_32
+
+} {} {}} C:/Users/kemal/quartus/processor.v {1 {vlog -work work -nocovercells C:/Users/kemal/quartus/processor.v
+Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+-- Compiling module processor
+
+Top level modules:
+	processor
+
+} {} {}} C:/Users/kemal/quartus/adder.v {1 {vlog -work work -nocovercells C:/Users/kemal/quartus/adder.v
+Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+-- Compiling module adder
+
+Top level modules:
+	adder
+
+} {} {}} C:/Users/kemal/quartus/signext.v {1 {vlog -work work -nocovercells C:/Users/kemal/quartus/signext.v
+Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+-- Compiling module signext
+
+Top level modules:
+	signext
+
+} {} {}} C:/Users/kemal/Desktop/project/zeroextend.v {1 {vlog -work work -nocovercells C:/Users/kemal/Desktop/project/zeroextend.v
+Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+-- Compiling module zeroext
+
+Top level modules:
+	zeroext
+
+} {} {}} C:/Users/kemal/Desktop/project/adder.v {1 {vlog -work work -nocovercells C:/Users/kemal/Desktop/project/adder.v
+Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+-- Compiling module adder
+
+Top level modules:
+	adder
+
+} {} {}} C:/Users/kemal/Desktop/project/processor.v {1 {vlog -work work -nocovercells C:/Users/kemal/Desktop/project/processor.v
+Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+-- Compiling module processor
+
+Top level modules:
+	processor
+
+} {} {}} C:/Users/kemal/Desktop/project/signext.v {1 {vlog -work work -nocovercells C:/Users/kemal/Desktop/project/signext.v
+Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+-- Compiling module signext
+
+Top level modules:
+	signext
+
+} {} {}} C:/Users/kemal/Desktop/project/mult2_to_1_5.v {1 {vlog -work work -nocovercells C:/Users/kemal/Desktop/project/mult2_to_1_5.v
+Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+-- Compiling module mult2_to_1_5
+
+Top level modules:
+	mult2_to_1_5
+
+} {} {}} C:/Users/kemal/Desktop/project/jumpbranchunit.v {1 {vlog -work work -nocovercells C:/Users/kemal/Desktop/project/jumpbranchunit.v
+Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+-- Compiling module jumpbranchunit
+
+Top level modules:
+	jumpbranchunit
+
+} {} {}} C:/Users/kemal/quartus/alucont.v {1 {vlog -work work -nocovercells C:/Users/kemal/quartus/alucont.v
+Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+-- Compiling module alucont
+
+Top level modules:
+	alucont
+
+} {} {}} C:/Users/kemal/quartus/shift.v {1 {vlog -work work -nocovercells C:/Users/kemal/quartus/shift.v
+Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+-- Compiling module shift
+
+Top level modules:
+	shift
+
+} {} {}} C:/Users/kemal/quartus/alu32.v {1 {vlog -work work -nocovercells C:/Users/kemal/quartus/alu32.v
+Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+-- Compiling module alu32
+
+Top level modules:
+	alu32
+
+} {} {}} C:/Users/kemal/quartus/zeroextend.v {1 {vlog -work work -nocovercells C:/Users/kemal/quartus/zeroextend.v
+Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+-- Compiling module zeroext
+
+Top level modules:
+	zeroext
+
+} {} {}} C:/Users/kemal/Desktop/project/shift.v {1 {vlog -work work -nocovercells C:/Users/kemal/Desktop/project/shift.v
+Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+-- Compiling module shift
+
+Top level modules:
+	shift
+
+} {} {}} C:/Users/kemal/Desktop/project/alucont.v {1 {vlog -work work -nocovercells C:/Users/kemal/Desktop/project/alucont.v
+Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+-- Compiling module alucont
+
+Top level modules:
+	alucont
+
+} {} {}}

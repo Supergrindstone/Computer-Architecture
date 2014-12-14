@@ -1,0 +1,38 @@
+module control(in,regdest,alusrc,memtoreg,regwrite,memread,memwrite,branch,aluop1,aluop2,PcSource1,PcSource2,JumpNotZero,Flageski,FlagWrite,Bgtz,Link,ori,jump);
+input [5:0] in;
+output regdest,alusrc,memtoreg,regwrite,memread,memwrite,branch,aluop1,aluop2,PcSource1,PcSource2,JumpNotZero,Flageski,FlagWrite,Bgtz,Link,ori ,jump ;
+wire rformat,lw,sw,beq,bmn,balmn,bn,bneal,jal,ori,imm ;
+assign rformat=~|in;
+assign lw=in[5]& (~in[4])&(~in[3])&(~in[2])&in[1]&in[0];
+assign sw=in[5]& (~in[4])&in[3]&(~in[2])&in[1]&in[0];
+assign beq=~in[5]& (~in[4])&(~in[3])&in[2]&(~in[1])&(~in[0]);
+assign bmn=(~in[5])&(in[4])&~in[3]&(in[2])&(~in[1])&in[0]; // bmn 21 010101   I-type
+assign balmn=(~in[5])&(in[4])&~in[3]&(in[2])&(in[1])&in[0]; // balmn 23 010111
+assign bn=(~in[5])&(in[4])&in[3]&(~in[2])&(~in[1])&in[0]; // bn 25 011001
+assign bneal=(in[5])&(~in[4])&in[3]&(in[2])&(~in[1])&in[0]; // bneal 45 101101  I-type
+assign bgtz=(~in[5])&(~in[4])&~in[3]&(in[2])&(in[1])&in[0]; // bgtz 7 000111
+assign jal=(~in[5])&(~in[4])&~in[3]&(~in[2])&(in[1])&in[0]; // jal 3 000011
+assign ori=(~in[5])&(~in[4])&in[3]&(in[2])&(~in[1])&in[0]; // ori 13 001101
+
+
+
+assign regdest=rformat;// when i have 3 register
+assign alusrc=lw|sw|ori | bmn | balmn; // 
+assign memtoreg=lw |balmn|bmn;// read from memeory
+assign regwrite=rformat|lw|Link ;// read from the memory (lw)and r type 
+assign memread=lw|bmn|balmn ; // read from the memory necessary data 
+assign memwrite=sw; // for write something to the memory
+assign branch=beq|balmn|bmn|bn|bneal; // when the condition get ture
+assign aluop1=rformat|ori;// using opcode to make the necessary operaiton 
+assign aluop2=beq|ori|bneal; // make subtraction when its true
+
+assign jump=jal;
+assign PcSource1 = bmn|balmn|bneal|beq|bgtz;
+assign PcSource2 =bgtz|beq|bneal|bn|jal
+assign JumpNotZero=bmn|balmn|bneal|bn:  // not oldugunda flag yanacak örnek bne
+assign Flageski=balmn|bmn|bn; //lable olmadıgında kullanırım çünkü yeni bi registerim yok
+assign FlagWrite=ori // arithametic operasyonlarda flag degerleri kayıt edilir
+assign Link=jal|balmn|bneal;
+
+
+endmodule

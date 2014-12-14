@@ -1,0 +1,233 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\kemal\quartus
+vadder
+Z1 !s100 mVUEU;c7C6]4^CLCa^aRC3
+Z2 IaB7;DUNAJ>3VN[oDKHC<i3
+Z3 V]F?=VehiIiE1BaUEoo]1X2
+Z4 dC:\Users\kemal\quartus
+Z5 w955064208
+Z6 8C:/Users/kemal/quartus/adder.v
+Z7 FC:/Users/kemal/quartus/adder.v
+L0 1
+Z8 OV;L;10.0d;49
+r1
+31
+Z9 !s90 -reportprogress|300|-work|work|-nocovercells|C:/Users/kemal/quartus/adder.v|
+Z10 !s102 -nocovercells
+Z11 o-work work -nocovercells -O0
+Z12 !s108 1401026649.205000
+Z13 !s107 C:/Users/kemal/quartus/adder.v|
+!s85 0
+!s101 -O0
+valu32
+Z14 !s100 7=Lbjdn3dV7E7^:BZM<oR1
+Z15 I4O3QQ5HePQ35nnhZJ^NkY0
+Z16 VIg6`JP^OFJUBa<LH7bV`g3
+R4
+Z17 w1400378914
+Z18 8C:/Users/kemal/quartus/alu32.v
+Z19 FC:/Users/kemal/quartus/alu32.v
+L0 1
+R8
+r1
+31
+Z20 !s90 -reportprogress|300|-work|work|-nocovercells|C:/Users/kemal/quartus/alu32.v|
+R10
+R11
+Z21 !s108 1401026649.327000
+Z22 !s107 C:/Users/kemal/quartus/alu32.v|
+!s85 0
+!s101 -O0
+valucont
+Z23 !s100 JK0<VJQZjXI=n0N_P;2mJ0
+Z24 I60`f8EdXmelXY>f=^XhK?0
+Z25 VLBa239XzCCNFJ6^DVmb672
+R4
+Z26 w1400375106
+Z27 8C:/Users/kemal/quartus/alucont.v
+Z28 FC:/Users/kemal/quartus/alucont.v
+L0 1
+R8
+r1
+31
+Z29 !s90 -reportprogress|300|-work|work|-nocovercells|C:/Users/kemal/quartus/alucont.v|
+R10
+R11
+Z30 !s108 1401026649.483000
+Z31 !s107 C:/Users/kemal/quartus/alucont.v|
+!s85 0
+!s101 -O0
+vcontrol
+Z32 !s100 a[;J0_E2mAkL435lOU_HE0
+Z33 ISUN?OD4S4DCBTbhbTN3bj3
+Z34 VAHJhjJ0n@fzMZ;jSUDU651
+R4
+Z35 w1401023695
+Z36 8C:/Users/kemal/quartus/control.v
+Z37 FC:/Users/kemal/quartus/control.v
+L0 1
+R8
+r1
+31
+Z38 !s90 -reportprogress|300|-work|work|-nocovercells|C:/Users/kemal/quartus/control.v|
+R10
+R11
+Z39 !s108 1401026649.673000
+Z40 !s107 C:/Users/kemal/quartus/control.v|
+!s85 0
+!s101 -O0
+vjumpbranchunit
+Z41 !s100 1kEz]23ZfoiY6GCWPTb>k1
+Z42 IAc=B>MYh?hbSZ2:EoXEPY1
+Z43 V^1f[mJh76KG_AUFj>712h2
+R4
+Z44 w1400386062
+Z45 8C:/Users/kemal/quartus/jumpbranchunit.v
+Z46 FC:/Users/kemal/quartus/jumpbranchunit.v
+L0 1
+R8
+r1
+31
+Z47 !s90 -reportprogress|300|-work|work|-nocovercells|C:/Users/kemal/quartus/jumpbranchunit.v|
+R10
+R11
+Z48 !s108 1401026650.967000
+Z49 !s107 C:/Users/kemal/quartus/jumpbranchunit.v|
+!s85 0
+!s101 -O0
+vmult2_to_1_32
+Z50 !s100 4h<;LEJa5AV`aDjn`k]@Z1
+Z51 Ineg`kG7@<]XclDi5?k:aR3
+Z52 Vh9XNFm3<b>^iAc2Nj?12<1
+R4
+Z53 w1021171086
+Z54 8C:/Users/kemal/quartus/mult2_to_1_32.v
+Z55 FC:/Users/kemal/quartus/mult2_to_1_32.v
+L0 1
+R8
+r1
+31
+Z56 !s90 -reportprogress|300|-work|work|-nocovercells|C:/Users/kemal/quartus/mult2_to_1_32.v|
+R10
+R11
+Z57 !s108 1401026659.618000
+Z58 !s107 C:/Users/kemal/quartus/mult2_to_1_32.v|
+!s85 0
+!s101 -O0
+vmult2_to_1_5
+Z59 !s100 =R2hi^K1fmMmLHnB?>mfo1
+Z60 I[>DI92fYW>OQj7VVW0DOJ3
+Z61 VCOB623`4MdenKQ^jg2g5D3
+R4
+Z62 w955064066
+Z63 8C:/Users/kemal/quartus/mult2_to_1_5.v
+Z64 FC:/Users/kemal/quartus/mult2_to_1_5.v
+L0 1
+R8
+r1
+31
+Z65 !s90 -reportprogress|300|-work|work|-nocovercells|C:/Users/kemal/quartus/mult2_to_1_5.v|
+R10
+R11
+Z66 !s108 1401026656.531000
+Z67 !s107 C:/Users/kemal/quartus/mult2_to_1_5.v|
+!s85 0
+!s101 -O0
+vmult4_to_1_32
+Z68 !s100 cTg:MWmhQZmEmnBXl6gS33
+Z69 IDITiO_Z06So91<TbLPDAb0
+Z70 VbPcaHEjebD2hME6E^RA]K2
+R4
+Z71 w1400373597
+Z72 8C:/Users/kemal/quartus/mult4_to_1_32.v
+Z73 FC:/Users/kemal/quartus/mult4_to_1_32.v
+L0 1
+R8
+r1
+31
+Z74 !s90 -reportprogress|300|-work|work|-nocovercells|C:/Users/kemal/quartus/mult4_to_1_32.v|
+R10
+R11
+Z75 !s108 1401026659.776000
+Z76 !s107 C:/Users/kemal/quartus/mult4_to_1_32.v|
+!s85 0
+!s101 -O0
+vprocessor
+Z77 !s100 a<5nMI@:0hm1Ia4IXCR<L2
+Z78 IXNCC[RX?LLdkhmAm2jT9N3
+Z79 V>WLhl7e>YIlS2Q2P1gCUR1
+R4
+Z80 w1401023809
+Z81 8C:/Users/kemal/quartus/processor.v
+Z82 FC:/Users/kemal/quartus/processor.v
+L0 1
+R8
+r1
+31
+Z83 !s90 -reportprogress|300|-work|work|-nocovercells|C:/Users/kemal/quartus/processor.v|
+R10
+R11
+Z84 !s108 1401026659.925000
+Z85 !s107 C:/Users/kemal/quartus/processor.v|
+!s85 0
+!s101 -O0
+vshift
+Z86 !s100 dK1?844=@Bknm0>fnke4M3
+Z87 I8=aTb;oU2gRihXZ_JcRio3
+Z88 VFdZmBHnW2J@M5Fk@17NJP3
+R4
+Z89 w955064064
+Z90 8C:/Users/kemal/quartus/shift.v
+Z91 FC:/Users/kemal/quartus/shift.v
+L0 1
+R8
+r1
+31
+Z92 !s90 -reportprogress|300|-work|work|-nocovercells|C:/Users/kemal/quartus/shift.v|
+R10
+R11
+Z93 !s108 1401026660.067000
+Z94 !s107 C:/Users/kemal/quartus/shift.v|
+!s85 0
+!s101 -O0
+vsignext
+Z95 !s100 2cVmdFzf1ZdSIMWElZ0gz3
+Z96 IPme7cF::BBNLl7[QJQV_50
+Z97 VYi_3z@@jJ@AG7BFj8:W8f0
+R4
+Z98 w1336027790
+Z99 8C:/Users/kemal/quartus/signext.v
+Z100 FC:/Users/kemal/quartus/signext.v
+L0 1
+R8
+r1
+31
+Z101 !s90 -reportprogress|300|-work|work|-nocovercells|C:/Users/kemal/quartus/signext.v|
+R10
+R11
+!s85 0
+Z102 !s108 1401026660.228000
+Z103 !s107 C:/Users/kemal/quartus/signext.v|
+!s101 -O0
+vzeroext
+Z104 !s100 LmX2b`^`4ZQTHE?XOJdol3
+Z105 IfiTRi39c8==oG8J3@_UgV1
+Z106 Vzag7]B6m:`HX7jT11fL<C3
+R4
+Z107 w1400380416
+Z108 8C:/Users/kemal/quartus/zeroextend.v
+Z109 FC:/Users/kemal/quartus/zeroextend.v
+L0 1
+R8
+r1
+!s85 0
+31
+!s108 1401026660.359000
+!s107 C:/Users/kemal/quartus/zeroextend.v|
+Z110 !s90 -reportprogress|300|-work|work|-nocovercells|C:/Users/kemal/quartus/zeroextend.v|
+!s101 -O0
+R10
+R11
